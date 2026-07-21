@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>About</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>About Telugu GFA</h1>
+
+<p>
+
+Telugu GFA provides premium handcrafted cricket bats with excellent balance, power and durability. Our mission is to deliver the best quality cricket bats at affordable prices.
+
+</p>
+
+</body>
+</html>

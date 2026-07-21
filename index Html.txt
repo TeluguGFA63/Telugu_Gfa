@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Telugu GFA</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<img src="images/logo.jpg" class="logo">
+
+<h1>WELCOME TO TELUGU GFA</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>Premium Cricket Bats</h2>
+
+<p>Handcrafted Premium Quality Cricket Bats</p>
+
+<a href="products.html" class="btn">Shop Now</a>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

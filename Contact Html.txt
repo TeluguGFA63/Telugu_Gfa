@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Contact</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Contact Us</h1>
+
+<p>Phone : 6300814612</p>
+
+<p>WhatsApp : 6300814612</p>
+
+<p>Email : telugugfa@gmail.com</p>
+
+<p>
+
+Instagram :
+https://instagram.com/telugugfa
+
+</p>
+
+<p>
+
+YouTube :
+https://youtube.com/@telugugfa
+
+</p>
+
+<p>
+
+Facebook :
+https://facebook.com/share/1BXKeFhTtV
+
+</p>
+
+</body>
+</html>
