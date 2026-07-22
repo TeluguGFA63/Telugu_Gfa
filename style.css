@@ -206,6 +206,8 @@ button{
 }
 }
 .logo{
-    width:50px;
+    width:70px;
     height:auto;
+    display:block;
+    margin:0 auto 10px;
 }
