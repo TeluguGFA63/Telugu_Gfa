@@ -1,25 +1,33 @@
-function startSlider(className){
+// ==========================
+// Telugu GFA Product Slider
+// ==========================
 
-const slider=document.querySelector("."+className);
+document.addEventListener("DOMContentLoaded", function () {
 
-if(!slider) return;
+    const sliders = document.querySelectorAll(".slider");
 
-const slides=slider.querySelectorAll(".slide");
+    sliders.forEach(function (slider) {
 
-let index=0;
+        const slides = slider.querySelectorAll(".slide");
 
-setInterval(()=>{
+        let index = 0;
 
-slides[index].classList.remove("active");
+        if (slides.length <= 1) return;
 
-index=(index+1)%slides.length;
+        setInterval(function () {
 
-slides[index].classList.add("active");
+            slides[index].classList.remove("active");
 
-},3000);
+            index++;
 
-}
+            if (index >= slides.length) {
+                index = 0;
+            }
 
-startSlider("diamond-slider");
+            slides[index].classList.add("active");
 
-startSlider("kerala-slider");
+        }, 3000);
+
+    });
+
+});
