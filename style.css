@@ -8,8 +8,12 @@
 }
 
 body{
+    margin:0;
     background:#111;
     color:#fff;
+    text-align:center;
+}
+    
 }
 
 a{
@@ -35,12 +39,16 @@ header p{
 }
 
 nav{
-    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    padding:15px 0;
 }
 
 nav a{
     color:#fff;
-    margin:0 15px;
+    font-size:20px;
     font-weight:bold;
 }
 
@@ -176,12 +184,12 @@ button:hover{
 @media(max-width:768px){
 
 header h1{
-    font-size:28px;
+    font-size:30px;
 }
 
 .title h1,
 .title h2{
-    font-size:28px;
+    font-size:38px;
 }
 
 .products{
@@ -194,7 +202,7 @@ header h1{
 }
 
 .card h2{
-    font-size:24px;
+    font-size:28px;
 }
 
 .card h3{
@@ -206,10 +214,10 @@ button{
 }
 }
 .logo{
-    width:120px;
+    width:140px;
     height:auto;
     display:block;
-    margin:15px auto;
+    margin:20px auto;
 }
 /* Mobile Layout */
 header{
@@ -218,7 +226,7 @@ header{
 }
 
 .logo{
-    width:120px;
+    width:140px;
     display:block;
     margin:0 auto;
 }
@@ -248,7 +256,7 @@ nav a{
 }
 
 .hero p{
-    font-size:20px;
+    font-size:22px;
 }
 
 .btn{
@@ -268,4 +276,22 @@ nav a{
     margin:15px auto;
     padding:20px;
     max-width:350px;
+}
+.shop-btn{
+    display:inline-block;
+    background:#FFD700;
+    color:#000;
+    padding:16px 45px;
+    border-radius:40px;
+    font-size:22px;
+    font-weight:bold;
+    margin-top:20px;
+}
+.contact{
+    width:90%;
+    margin:40px auto;
+    background:#222;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
 }
