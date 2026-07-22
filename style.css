@@ -211,3 +211,61 @@ button{
     display:block;
     margin:15px auto;
 }
+/* Mobile Layout */
+header{
+    text-align:center;
+    padding:20px;
+}
+
+.logo{
+    width:120px;
+    display:block;
+    margin:0 auto;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin:20px 0;
+}
+
+nav a{
+    font-size:22px;
+    font-weight:bold;
+    color:#fff;
+    text-decoration:none;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+.btn{
+    padding:18px 45px;
+    border-radius:35px;
+    font-size:22px;
+}
+
+.features{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.feature-box{
+    background:#222;
+    border-radius:15px;
+    margin:15px auto;
+    padding:20px;
+    max-width:350px;
+}
