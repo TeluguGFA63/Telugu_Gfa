@@ -24,13 +24,13 @@ a{
 
 header{
     background:#000;
-    padding:40px;
+    padding:20px;
     text-align:center;
 }
 
 header h1{
     color:#FFD700;
-    font-size:40px;
+    font-size:20px;
 }
 
 header p{
@@ -48,7 +48,7 @@ nav{
 
 nav a{
     color:#fff;
-    font-size:40px;
+    font-size:20px;
     font-weight:bold;
 }
 
@@ -61,13 +61,13 @@ nav .active{
 
 .title{
     text-align:center;
-    padding:30px 15px;
+    padding:20px 10px;
 }
 
 .title h1,
 .title h2{
     color:#FFD700;
-    font-size:36px;
+    font-size:26px;
 }
 
 .title p{
@@ -89,10 +89,10 @@ nav .active{
 .card{
     background:#1b1b1b;
     border-radius:20px;
-    padding:30px;
+    padding:20px;
     text-align:center;
     transition:.4s;
-    box-shadow:0 20px 45px rgba(0,0,0,.4);
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
 }
 
 .card:hover{
@@ -102,18 +102,18 @@ nav .active{
 
 .card h2{
     color:#FFD700;
-    margin-top:25px;
-    font-size:38px;
+    margin-top:15px;
+    font-size:28px;
 }
 
 .card h3{
-    font-size:40px;
-    margin:22px 0;
+    font-size:20px;
+    margin:12px 0;
 }
 
 .card p{
     color:#ccc;
-    margin-bottom:25px;
+    margin-bottom:15px;
 }
 
 /* ===== IMAGE SLIDER ===== */
@@ -149,7 +149,7 @@ button{
     color:#000;
     border:none;
     padding:14px 35px;
-    border-radius:40px;
+    border-radius:20px;
     font-size:18px;
     font-weight:bold;
     cursor:pointer;
@@ -166,7 +166,7 @@ button:hover{
 .contact{
     background:#000;
     text-align:center;
-    padding:40px 20px;
+    padding:20px 10px;
     margin-top:40px;
 }
 
@@ -189,7 +189,7 @@ header h1{
 
 .title h1,
 .title h2{
-    font-size:38px;
+    font-size:28px;
 }
 
 .products{
@@ -198,7 +198,7 @@ header h1{
 }
 
 .slider{
-    height:280px;
+    height:180px;
 }
 
 .card h2{
