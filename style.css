@@ -158,117 +158,34 @@ font-weight:bold;
 
 </div>
 
+<header>
+...
+</header>
+
+<div class="title">
+...
+</div>
+
 <div class="products">
 
-<!-- PRODUCT 1 -->
+    <!-- Diamond Scoop Slider -->
 
-<div class="card">
+    <!-- Kerala Scoop Slider -->
 
-<div class="slider">
+    <!-- T-Shirt 1 -->
 
-<img src="bat 1.jpeg" class="slide active">
+    <!-- T-Shirt 2 -->
 
-<img src="bat 2.jpeg" class="slide">
+    <!-- T-Shirt 3 -->
 
-<img src="bat 3.jpeg" class="slide">
+    <!-- T-Shirt 4 -->
 
-</div>
+    <!-- T-Shirt 5 -->
 
-<h2>Diamond Scoop (Single Blade)</h2>
+    <!-- T-Shirt 6 -->
 
-<div class="price">₹2200</div>
-
-<div class="desc">
-
-Best Scoop and Best Performance
+    <!-- T-Shirt 7 -->
 
 </div>
 
-<button onclick="window.location='cart.html'">
-
-Add To Cart
-
-</button>
-
-<br><br>
-
-<a class="whatsapp"
-
-href="https://wa.me/916300814612?text=I%20want%20to%20order%20Diamond%20Scoop%20(Single%20Blade)%20₹2200">
-
-Order on WhatsApp
-
-</a>
-
-</div>
-
-<!-- PRODUCT 2 -->
-
-<div class="card">
-
-<div class="slider">
-
-<img src="bat 4.jpeg" class="slide active">
-
-<img src="bat 5.jpeg" class="slide">
-
-<img src="bat 6.jpeg" class="slide">
-
-</div>
-
-<h2>Kerala Scoop (Double Blade)</h2>
-
-<div class="price">₹2400</div>
-
-<div class="desc">
-
-Best Scoop and Best Performance
-
-</div>
-
-<button onclick="window.location='cart.html'">
-
-Add To Cart
-
-</button>
-
-<br><br>
-
-<a class="whatsapp"
-
-href="https://wa.me/916300814612?text=I%20want%20to%20order%20Kerala%20Scoop%20(Double%20Blade)%20₹2400">
-
-Order on WhatsApp
-
-</a>
-
-</div>
-
-</div>
-
-<script>
-
-const sliders=document.querySelectorAll(".slider");
-
-sliders.forEach(slider=>{
-
-const slides=slider.querySelectorAll(".slide");
-
-let index=0;
-
-setInterval(()=>{
-
-slides[index].classList.remove("active");
-
-index=(index+1)%slides.length;
-
-slides[index].classList.add("active");
-
-},2500);
-
-});
-
-</script>
-
-</body>
-</html>
+<script src="script.js"></script>
