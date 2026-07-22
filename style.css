@@ -41,7 +41,7 @@ header p{
 nav{
     display:flex;
     justify-content:center;
-    gap:45px;
+    gap:25px;
     flex-wrap:wrap;
     padding:25px 0;
 }
@@ -82,8 +82,8 @@ nav .active{
     margin:auto;
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-    gap:30px;
-    padding:60px;
+    gap:15px;
+    padding:30px;
 }
 
 .card{
