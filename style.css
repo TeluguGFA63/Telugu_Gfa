@@ -363,13 +363,13 @@ height:180px;
 
 }
 .loader-logo{
-    width:80px;
-    height:80px;
-    border-radius:50%;
-    object-fit:cover;
+    width:130px;
+    height:130px;
     position:absolute;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+    object-fit:contain;
+    border-radius:50%;
     z-index:2;
 }
