@@ -3,144 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Products | Telugu GFA</title>
+<title>Products | Telugu GFA Cricket Store</title>
 
 <link rel="stylesheet" href="style.css">
-
-<style>
-
-body{
-background:#111;
-font-family:Arial,sans-serif;
-margin:0;
-color:#fff;
-}
-
-header{
-background:#000;
-padding:20px;
-text-align:center;
-}
-
-header h1{
-color:#FFD700;
-margin:0;
-}
-
-nav{
-margin-top:15px;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:0 15px;
-font-size:18px;
-font-weight:bold;
-}
-
-nav a:hover{
-color:#FFD700;
-}
-
-.title{
-text-align:center;
-margin:40px 0;
-}
-
-.products{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
-gap:30px;
-padding:30px;
-}
-
-.card{
-background:#1a1a1a;
-border-radius:20px;
-padding:20px;
-text-align:center;
-box-shadow:0 0 25px rgba(255,215,0,.25);
-}
-
-.slider{
-position:relative;
-width:100%;
-height:300px;
-overflow:hidden;
-background:#fff;
-border-radius:15px;
-}
-
-.slide{
-position:absolute;
-width:100%;
-height:100%;
-object-fit:contain;
-opacity:0;
-transition:.8s;
-}
-
-.slide.active{
-opacity:1;
-}
-
-.card h2{
-color:#FFD700;
-}
-
-.price{
-font-size:34px;
-font-weight:bold;
-margin:10px;
-}
-
-.desc{
-color:#ddd;
-margin-bottom:20px;
-}
-
-button{
-background:#FFD700;
-border:none;
-padding:14px 30px;
-font-size:18px;
-border-radius:40px;
-cursor:pointer;
-font-weight:bold;
-}
-
-button:hover{
-background:orange;
-}
-
-.whatsapp{
-display:inline-block;
-margin-top:15px;
-padding:12px 25px;
-background:#25D366;
-color:white;
-text-decoration:none;
-border-radius:30px;
-font-weight:bold;
-}
-
-</style>
-
 </head>
 
 <body>
 
-<header>
+<header class="header">
 
-<h1>Telugu GFA Cricket Store</h1>
+<h1>🏏 Telugu GFA Cricket Store</h1>
+
+<p>Premium Cricket Bats & Jerseys</p>
 
 <nav>
 
 <a href="index.html">Home</a>
 
-<a href="products.html">Products</a>
+<a href="products.html" class="active">Products</a>
 
 <a href="about.html">About</a>
 
@@ -150,125 +30,246 @@ font-weight:bold;
 
 </header>
 
-<div class="title">
+<section class="products">
 
-<h1>Premium Cricket Bats</h1>
-
-<p>High Quality • Best Scoop • Best Performance</p>
-
-</div>
-
-<div class="products">
-
-<!-- PRODUCT 1 -->
+<!-- ========================= -->
+<!-- Diamond Scoop -->
+<!-- ========================= -->
 
 <div class="card">
 
 <div class="slider">
 
-<img src="bat 1.jpeg" class="slide active">
+<img src="diamond-front.jpeg" class="slide active">
 
-<img src="bat 2.jpeg" class="slide">
+<img src="diamond-back.jpeg" class="slide">
 
-<img src="bat 3.jpeg" class="slide">
-
-</div>
-
-<h2>Diamond Scoop (Single Blade)</h2>
-
-<div class="price">₹2200</div>
-
-<div class="desc">
-
-Best Scoop and Best Performance
+<img src="diamond-side.jpeg" class="slide">
 
 </div>
 
-<button onclick="window.location='cart.html'">
+<h2>Diamond Scoop</h2>
 
-Add To Cart
+<h3>₹2200</h3>
 
-</button>
+<p>Single Blade Premium Scoop Bat</p>
 
-<br><br>
+<a href="https://wa.me/916300814612?text=Hello%20I%20want%20to%20order%20Diamond%20Scoop">
 
-<a class="whatsapp"
-
-href="https://wa.me/916300814612?text=I%20want%20to%20order%20Diamond%20Scoop%20(Single%20Blade)%20₹2200">
-
-Order on WhatsApp
+<button>Order Now</button>
 
 </a>
 
 </div>
 
-<!-- PRODUCT 2 -->
+<!-- ========================= -->
+<!-- Kerala Scoop -->
+<!-- ========================= -->
 
 <div class="card">
 
 <div class="slider">
 
-<img src="bat 4.jpeg" class="slide active">
+<img src="kerala-front.jpeg" class="slide active">
 
-<img src="bat 5.jpeg" class="slide">
+<img src="kerala-back.jpeg" class="slide">
 
-<img src="bat 6.jpeg" class="slide">
-
-</div>
-
-<h2>Kerala Scoop (Double Blade)</h2>
-
-<div class="price">₹2400</div>
-
-<div class="desc">
-
-Best Scoop and Best Performance
+<img src="kerala-side.jpeg" class="slide">
 
 </div>
 
-<button onclick="window.location='cart.html'">
+<h2>Kerala Scoop</h2>
 
-Add To Cart
+<h3>₹2400</h3>
 
-</button>
+<p>Double Blade Premium Scoop Bat</p>
 
-<br><br>
+<a href="https://wa.me/916300814612?text=Hello%20I%20want%20to%20order%20Kerala%20Scoop">
 
-<a class="whatsapp"
-
-href="https://wa.me/916300814612?text=I%20want%20to%20order%20Kerala%20Scoop%20(Double%20Blade)%20₹2400">
-
-Order on WhatsApp
+<button>Order Now</button>
 
 </a>
 
 </div>
+  <!-- ========================= -->
+<!-- T-Shirt 1 -->
+<!-- ========================= -->
+
+<div class="card">
+
+<div class="slider">
+<img src="tshirt1-front.jpeg" class="slide active">
+<img src="tshirt1-back.jpeg" class="slide">
+</div>
+
+<h2>Yellow Thunder Jersey</h2>
+
+<h3>₹399</h3>
+
+<p>Premium Polyester Cricket Jersey</p>
+
+<a href="https://wa.me/916300814612?text=Hello%20I%20want%20to%20order%20Yellow%20Thunder%20Jersey">
+<button>Order Now</button>
+</a>
 
 </div>
 
-<script>
+<!-- ========================= -->
+<!-- T-Shirt 2 -->
+<!-- ========================= -->
 
-const sliders=document.querySelectorAll(".slider");
+<div class="card">
 
-sliders.forEach(slider=>{
+<div class="slider">
+<img src="tshirt2-front.jpeg" class="slide active">
+<img src="tshirt2-back.jpeg" class="slide">
+</div>
 
-const slides=slider.querySelectorAll(".slide");
+<h2>Orange Champion Jersey</h2>
 
-let index=0;
+<h3>₹399</h3>
 
-setInterval(()=>{
+<p>Premium Polyester Cricket Jersey</p>
 
-slides[index].classList.remove("active");
+<a href="https://wa.me/916300814612?text=Hello%20I%20want%20to%20order%20Orange%20Champion%20Jersey">
+<button>Order Now</button>
+</a>
 
-index=(index+1)%slides.length;
+</div>
 
-slides[index].classList.add("active");
+<!-- ========================= -->
+<!-- T-Shirt 3 -->
+<!-- ========================= -->
 
-},2500);
+<div class="card">
 
-});
+<div class="slider">
+<img src="tshirt3-front.jpeg" class="slide active">
+<img src="tshirt3-back.jpeg" class="slide">
+</div>
 
-</script>
+<h2>Black Warrior Jersey</h2>
+
+<h3>₹399</h3>
+
+<p>Premium Polyester Cricket Jersey</p>
+
+<a href="https://wa.me/916300814612?text=Hello%20I%20want%20to%20order%20Black%20Warrior%20Jersey">
+<button>Order Now</button>
+</a>
+
+</div>
+<!-- ========================= -->
+<!-- T-Shirt 4 -->
+<!-- ========================= -->
+
+<div class="card">
+
+<div class="slider">
+<img src="tshirt4-front.jpeg" class="slide active">
+<img src="tshirt4-back.jpeg" class="slide">
+</div>
+
+<h2>Blue Power Jersey</h2>
+
+<h3>₹399</h3>
+
+<p>Premium Polyester Cricket Jersey</p>
+
+<a href="https://wa.me/916300814612?text=Hello I want to order Blue Power Jersey">
+<button>Order Now</button>
+</a>
+
+</div>
+
+<!-- ========================= -->
+<!-- T-Shirt 5 -->
+<!-- ========================= -->
+
+<div class="card">
+
+<div class="slider">
+<img src="tshirt5-front.jpeg" class="slide active">
+<img src="tshirt5-back.jpeg" class="slide">
+</div>
+
+<h2>Red Fire Jersey</h2>
+
+<h3>₹399</h3>
+
+<p>Premium Polyester Cricket Jersey</p>
+
+<a href="https://wa.me/916300814612?text=Hello I want to order Red Fire Jersey">
+<button>Order Now</button>
+</a>
+
+</div>
+
+<!-- ========================= -->
+<!-- T-Shirt 6 -->
+<!-- ========================= -->
+
+<div class="card">
+
+<div class="slider">
+<img src="tshirt6-front.jpeg" class="slide active">
+<img src="tshirt6-back.jpeg" class="slide">
+</div>
+
+<h2>Grey Elite Jersey</h2>
+
+<h3>₹399</h3>
+
+<p>Premium Polyester Cricket Jersey</p>
+
+<a href="https://wa.me/916300814612?text=Hello I want to order Grey Elite Jersey">
+<button>Order Now</button>
+</a>
+
+</div>
+
+<!-- ========================= -->
+<!-- T-Shirt 7 -->
+<!-- ========================= -->
+
+<div class="card">
+
+<div class="slider">
+<img src="tshirt7-front.jpeg" class="slide active">
+<img src="tshirt7-back.jpeg" class="slide">
+</div>
+
+<h2>Green Victory Jersey</h2>
+
+<h3>₹399</h3>
+
+<p>Premium Polyester Cricket Jersey</p>
+
+<a href="https://wa.me/916300814612?text=Hello I want to order Green Victory Jersey">
+<button>Order Now</button>
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Telugu GFA Cricket Store</h2>
+
+<p>📞 6300814612</p>
+
+<p>📧 telugugfa@gmail.com</p>
+
+<p>📍 Venkatagirikota, Chittoor</p>
+
+<p>💳 UPI: subbuking63@ybl</p>
+
+<p>© 2026 Telugu GFA. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
