@@ -41,9 +41,9 @@ header p{
 nav{
     display:flex;
     justify-content:center;
-    gap:25px;
+    gap:15px;
     flex-wrap:wrap;
-    padding:25px 0;
+    padding:15px 0;
 }
 
 nav a{
@@ -61,7 +61,7 @@ nav .active{
 
 .title{
     text-align:center;
-    padding:40px 20px;
+    padding:30px 15px;
 }
 
 .title h1,
@@ -88,8 +88,8 @@ nav .active{
 
 .card{
     background:#1b1b1b;
-    border-radius:40px;
-    padding:60px;
+    border-radius:20px;
+    padding:30px;
     text-align:center;
     transition:.4s;
     box-shadow:0 20px 45px rgba(0,0,0,.4);
@@ -235,8 +235,8 @@ nav{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:20px;
-    margin:60px 0;
+    gap:15px;
+    margin:30px 0;
 }
 
 nav a{
@@ -248,7 +248,7 @@ nav a{
 
 .hero{
     text-align:center;
-    padding:40px 20px;
+    padding:20px 10px;
 }
 
 .hero h1{
