@@ -1,59 +1,25 @@
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
+function startSlider(className){
 
-function addToCart(name, price) {
+const slider=document.querySelector("."+className);
 
-cart.push({
-name: name,
-price: price
-});
+if(!slider) return;
 
-localStorage.setItem("cart", JSON.stringify(cart));
+const slides=slider.querySelectorAll(".slide");
 
-alert(name + " added to cart!");
+let index=0;
 
-}
+setInterval(()=>{
 
-function loadCart(){
+slides[index].classList.remove("active");
 
-let cartItems=document.getElementById("cart-items");
-let total=document.getElementById("total");
+index=(index+1)%slides.length;
 
-if(!cartItems) return;
+slides[index].classList.add("active");
 
-cartItems.innerHTML="";
-
-let grandTotal=0;
-
-cart.forEach((item,index)=>{
-
-grandTotal+=item.price;
-
-cartItems.innerHTML+=`
-<div class="card">
-<h2>${item.name}</h2>
-<h3>₹${item.price}</h3>
-
-<button onclick="removeItem(${index})">
-Remove
-</button>
-
-</div>
-`;
-
-});
-
-total.innerHTML="Total : ₹"+grandTotal;
+},3000);
 
 }
 
-function removeItem(index){
+startSlider("diamond-slider");
 
-cart.splice(index,1);
-
-localStorage.setItem("cart",JSON.stringify(cart));
-
-loadCart();
-
-}
-
-window.onload=loadCart;
+startSlider("kerala-slider");
