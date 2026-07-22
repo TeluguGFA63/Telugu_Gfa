@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<img src="logooooo.jpeg" class="logo">
+<h1>Checkout</h1>
+</header>
+
+<section class="products">
+
+<div class="card">
+
+<h2>Payment Details</h2>
+
+<p>UPI ID</p>
+
+<h3>subbuking63@ybl</h3>
+
+<p>PhonePe / Google Pay / Paytm</p>
+
+<a href="https://wa.me/916300814612?text=Hello Telugu GFA, I have completed payment and want to order a cricket bat.">
+<button>Confirm Order on WhatsApp</button>
+</a>
+
+</div>
+
+</section>
+
+</body>
+</html>

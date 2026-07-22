@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Products</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Our Products</h1>
+
+<div class="product">
+
+<img src="images/bat1.png">
+
+<h2>Diamond Scoop (Single Blade)</h2>
+
+<h3>₹2200</h3>
+
+</div>
+
+<div class="product">
+
+<img src="images/bat4.png">
+
+<h2>Kerala Scoop (Double Blade)</h2>
+
+<h3>₹2400</h3>
+
+</div>
+
+</body>
+</html>
